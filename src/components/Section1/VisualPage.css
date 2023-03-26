@@ -1,17 +1,19 @@
 .visualpage {
+  width: 100%;
   display: flex;
+  justify-content: center;
   padding-right: 18px;
 }
 .visualpage_left {
   background-color: #251170;
-  width: 900px;
+  width: 45%;
   height: 880px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .visualpage_right {
-  width: 900px;
+  width: 45%;
   height: 880px;
 }
 .visualpage_img {
@@ -37,6 +39,7 @@
   width: 720px;
   height: 635px;
   padding-left: 100px;
+  position: relative;
 }
 
 .visualpage_text p {
@@ -125,11 +128,11 @@
   min-width: 11px;
   white-space: nowrap;
   margin: 0;
-  position: fixed;
-  top: 530px;
-  left: 430px;
   color: transparent;
   transform: translate(-50%, -50%);
+  position: absolute;
+  top: 55%;
+  left: 340px;
 }
 
 .visualpage_effect::before {
